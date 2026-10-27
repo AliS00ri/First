@@ -8,7 +8,7 @@ kg = pound * 0.45359237
 money = kg * 2
 
 print(f"Weight in kilograms: {kg:.2f}")
-print(f"U get: {money:.2f} dollars")
+print(f"U get: {money:.2f} $")
 
 if money > 100:
     prize = random.choice(["hat", "hook", "bucket"])
